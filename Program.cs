@@ -1,9 +1,9 @@
 ﻿int totalSteps = 30;
 
-for (int i = 1; i < 30; i++)
+for (int step = 1; step < totalSteps; step++)
 {
-    Console.WriteLine($"Loading... Step {i} of {totalSteps}");
-    if (i % 3 == 0)
+    Console.WriteLine($"Loading... Step {step} of {totalSteps}");
+    if (step % 3 == 0)
     {
         Console.WriteLine("Checkpoint reached!");
     }
